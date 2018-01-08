@@ -52,22 +52,3 @@ Documentation
 ### Examples
 
 You have to create some automatic actions in your project to make it work:
-
-#### Close a Kanboard task when a commit pushed to Freshdesk
-
-- Choose the event: **Freshdesk commit received**
-- Choose action: **Close the task**
-
-When one or more commits are sent to Freshdesk, Kanboard will receive the information, each commit message with a task number included will be closed.
-
-Example:
-
-- Commit message: "Fix bug #1234"
-- That will close the Kanboard task #1234
-
-#### Add comment when a commit received
-
-- Choose the event: **Freshdesk commit received**
-- Choose action: **Create a comment from an external provider**
-
-The comment will contain the commit message and the URL to the commit.
